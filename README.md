@@ -11,7 +11,7 @@ A menu-driven Java console application that manages student records and campus r
 
 | No. | Name | Registration ID | Responsibility | Files |
 |-----|------|-----------------|----------------|-------|
-| 1 | [MI NADHA] | [23DA2-0905] | Linked List & Student-Record Management | `Student.java`, `StudentLinkedList.java` |
+| 1 | [MI.Amnath Nadha] | [23DA2-0905] | Linked List & Student-Record Management | `Student.java`, `StudentLinkedList.java` |
 | 2 | [AK.Sanij Kalees] | [23da2-0683] | Stack & Queue | `ActionStack.java`, `ServiceQueue.java` |
 | 3 | [MR.Rishni Ruzaid] | [23da2-1114] | BST & Hashing | `StudentBST.java`, `StudentHashTable.java` |
 | 4 | [TM HAKEEM] | [23DA2-0759] | Graph & BFS/DFS | `CampusGraph.java` |
@@ -59,7 +59,6 @@ A menu-driven Java console application that manages student records and campus r
 
 ```
 CampusSystem/
-├── src/
 │   ├── Main.java
 │   ├── Student.java
 │   ├── StudentLinkedList.java
@@ -95,7 +94,7 @@ javac -version
 ```powershell
 cd "path\to\CampusSystem"
 mkdir bin
-javac -d bin src\Main.java src\Student.java src\StudentLinkedList.java src\ActionStack.java src\ServiceQueue.java src\StudentBST.java src\StudentHashTable.java src\CampusGraph.java
+javac -d bin Main.java Student.java StudentLinkedList.java ActionStack.java ServiceQueue.java StudentBST.java StudentHashTable.java CampusGraph.java
 java -cp bin Main
 ```
 
@@ -103,14 +102,14 @@ java -cp bin Main
 
 ```bash
 mkdir -p bin
-javac -d bin src/*.java
+javac -d bin *.java
 java -cp bin Main
 ```
 
 ### VS Code
 
 1. Open the project folder in VS Code.
-2. Open `src/Main.java`.
+2. Open `Main.java`.
 3. Click **Run** above the `main` method.
 
 ---
@@ -127,14 +126,5 @@ java -cp bin Main
 
 ## Submission
 
-- **GitHub repository:** [Paste repository link here]
-- **Google Drive folder (video and documents):** [Paste Drive link here]
-- Editor access granted to:
-  - asanka.r@sltc.ac.lk
-  - kaushika.w@sltc.ac.lk
+- GitHub repository: (https://github.com/Sanij1999/CampusSystem.git)
 
----
-
-## Demo Video
-
-[Paste video link here]
