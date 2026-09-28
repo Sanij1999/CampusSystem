@@ -11,29 +11,29 @@ A menu-driven Java console application that manages student records and campus r
 
 | No. | Name | Registration ID | Responsibility | Files |
 |-----|------|-----------------|----------------|-------|
-| 1 | [Member 1 Name] | [Registration ID] | Linked List & Student-Record Management | `Student.java`, `StudentLinkedList.java` |
-| 2 | [Member 2 Name] | [Registration ID] | Stack & Queue | `ActionStack.java`, `ServiceQueue.java` |
-| 3 | [Member 3 Name] | [Registration ID] | BST & Hashing | `StudentBST.java`, `StudentHashTable.java` |
-| 4 | [Member 4 Name] | [Registration ID] | Graph & BFS/DFS | `CampusGraph.java` |
+| 1 | [MI NADHA] | [23DA2-0905] | Linked List & Student-Record Management | `Student.java`, `StudentLinkedList.java` |
+| 2 | [AK.Sanij Kalees] | [23da2-0683] | Stack & Queue | `ActionStack.java`, `ServiceQueue.java` |
+| 3 | [MR.Rishni Ruzaid] | [23da2-1114] | BST & Hashing | `StudentBST.java`, `StudentHashTable.java` |
+| 4 | [TM HAKEEM] | [23DA2-0759] | Graph & BFS/DFS | `CampusGraph.java` |
 | All | Whole group | - | Integration and final testing | `Main.java` |
 
 ---
 
 ## Individual Contributions
 
-### Member 1 - [Member 1 Name] ([Registration ID])
+### Member 1 - [MI NADHA] (23DA2-0905])
 - Implemented the `Student` class and the `StudentLinkedList`.
 - Add, search, delete, and display student records.
 
-### Member 2 - [Member 2 Name] ([Registration ID])
+### Member 2 - [AK.Sanij Kalees] ([23da2-0683])
 - Implemented `ActionStack` for recent actions / undo history.
 - Implemented `ServiceQueue` for processing student service requests in order.
 
-### Member 3 - [Member 3 Name] ([Registration ID])
+### Member 3 - [MR.Rishni Ruzaid] ([23da2-1114])
 - Implemented `StudentBST` for storing and searching students by ID.
 - Implemented `StudentHashTable` (separate chaining) for fast lookup.
 
-### Member 4 - [Member 4 Name] ([Registration ID])
+### Member 4 - [TM HAKEEM] ([23DA2-0759])
 - Implemented `CampusGraph` using an adjacency list.
 - Add locations, connect locations, and traverse with BFS and DFS.
 
